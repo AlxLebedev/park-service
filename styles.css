@@ -1,0 +1,216 @@
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: url(fonts/ProximaNova-Regular.otf);
+    font-weight: 400px;
+    font-style: normal;
+}
+  
+  @font-face {
+    font-family: "ProximaNova-Bold";
+    src: url(fonts/ProximaNova-Bold.otf);
+    font-weight: 700px;
+    font-style: normal;
+}
+
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+.list-styles-reset {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: "ProximaNova-Bold";
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    color: #000000;
+    background-color:#71c78b;
+    font-family: "ProximaNova-Regular";
+}
+
+.header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.main-title {
+    font-size: 14px;
+}
+
+.operating-time {
+    display: flex;
+    flex-direction: column;
+}
+
+.operating-time-item {
+    font-size: 8px;
+}
+
+.header-content-cover {
+    position: relative;
+    background-image: url(img/car.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content-cover::after {
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
+.header-slogan {
+    font-size: 12px;
+    padding-top: 19px;
+    padding-bottom: 13px;
+}
+
+.header-slogan-next-line {
+    display: block;
+}
+
+.links-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.links:nth-child(2) {
+    margin-left: auto;
+}
+
+.link-item:nth-child(2) {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.links a {
+    display: flex;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+}
+
+.links a:nth-child(2) {
+    /* margin-left: 2%; */
+}
+
+.link-call {
+    position: relative;
+    background-image: url(img/phone-icon-40.png);
+}
+
+.link-call::after {
+    position: absolute;
+    content: 'позвонить';
+    font-size: 9px;
+    top: 40px;
+    left: -1px;
+}
+
+.link-whatsapp {
+    position: relative;
+    background-image: url(img/whatsapp-icon-40.png);
+}
+
+.link-whatsapp::after {
+    position: absolute;
+    content: 'whatsapp';
+    font-size: 9px;
+    top: 40px;
+    left: 2px;
+}
+
+.link-viber {
+    position: relative;
+    background-image: url(img/viber-icon-40.png);
+}
+
+.link-viber::after {
+    position: absolute;
+    content: 'viber';
+    font-size: 9px;
+    top: 40px;
+    left: 10px;
+}
+
+.link-insta {
+    position: relative;
+    background-image: url(img/insta-icon-40.png);
+}
+
+.link-insta::after {
+    position: absolute;
+    content: 'instagramm';
+    font-size: 9px;
+    top: 40px;
+    left: -2px;
+}
+
+.link-vk {
+    position: relative;
+    background-image: url(img/vk-icon-40.png);
+}
+
+.link-vk::after {
+    position: absolute;
+    content: 'ВКонтакте';
+    font-size: 9px;
+    top: 40px;
+    left: -1px;
+}
+
+.link-email {
+    position: relative;
+    background-image: url(img/email-icon-40.png);
+}
+
+.link-email::after {
+    position: absolute;
+    content: 'e-mail';
+    font-size: 9px;
+    top: 40px;
+    left: 8px;
+}
