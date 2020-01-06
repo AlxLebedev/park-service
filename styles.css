@@ -50,7 +50,6 @@ body {
     margin: 0;
     min-width: 320px;
     color: #000000;
-    background-color:#71c78b;
     font-family: "ProximaNova-Regular";
 }
 
@@ -60,6 +59,7 @@ body {
     align-items: center;
     padding-top: 13px;
     padding-bottom: 13px;
+    background-color:#79bd8f;
 }
 
 .main-title {
@@ -89,12 +89,12 @@ body {
 .header-content-cover::after {
     content: "";
     position: absolute;
-    background-color: #ffffff;
+    background-color: #a6ceb3;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .header-content {
@@ -106,6 +106,7 @@ body {
     font-size: 12px;
     padding-top: 19px;
     padding-bottom: 13px;
+    max-width: 320px;
 }
 
 .header-slogan-part-two {
@@ -161,12 +162,13 @@ body {
 
 .link-call {
     position: relative;
-    background-image: url(img/phone-icon-40.png);
+    background-image: url(img/social/phone-icon-80.png);
+    background-size: 40px;
 }
 
 .link-call::after {
     position: absolute;
-    content: 'позвонить';
+    content: 'Позвонить';
     font-size: 9px;
     top: 40px;
     left: -1px;
@@ -174,12 +176,13 @@ body {
 
 .link-whatsapp {
     position: relative;
-    background-image: url(img/whatsapp-icon-40.png);
+    background-image: url(img/social/whatsapp-icon-80.png);
+    background-size: 40px;
 }
 
 .link-whatsapp::after {
     position: absolute;
-    content: 'whatsapp';
+    content: 'Whatsapp';
     font-size: 9px;
     top: 40px;
     left: 2px;
@@ -187,12 +190,13 @@ body {
 
 .link-viber {
     position: relative;
-    background-image: url(img/viber-icon-40.png);
+    background-image: url(img/social/viber-icon-80.png);
+    background-size: 40px;
 }
 
 .link-viber::after {
     position: absolute;
-    content: 'viber';
+    content: 'Viber';
     font-size: 9px;
     top: 40px;
     left: 10px;
@@ -200,12 +204,13 @@ body {
 
 .link-insta {
     position: relative;
-    background-image: url(img/insta-icon-40.png);
+    background-image: url(img/social/insta-icon-80.png);
+    background-size: 40px;
 }
 
 .link-insta::after {
     position: absolute;
-    content: 'instagramm';
+    content: 'Instagram';
     font-size: 9px;
     top: 40px;
     left: -2px;
@@ -213,7 +218,8 @@ body {
 
 .link-vk {
     position: relative;
-    background-image: url(img/vk-icon-40.png);
+    background-image: url(img/social/vk-icon-80.png);
+    background-size: 40px;
 }
 
 .link-vk::after {
@@ -226,7 +232,8 @@ body {
 
 .link-email {
     position: relative;
-    background-image: url(img/email-icon-40.png);
+    background-image: url(img/social/email-icon-80.png);
+    background-size: 40px;
 }
 
 .link-email::after {
@@ -240,7 +247,7 @@ body {
 .service-links {
     display: flex;
     flex-direction: column;
-    background-color: #E5E5E5;
+    background-color: rgba(121, 189, 143, 0.3);
     padding-top: 20px;
 }
 
@@ -253,7 +260,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 75px;
+    width: 85px;
     margin: auto;
 }
 
@@ -266,9 +273,62 @@ body {
     margin: auto;
 }
 
-.service-links-article h3 {
-    font-size: 8px;
-    font-weight: normal;
+.service-links-article p {
+    font-size: 12px;
     text-align: center;
     padding-top: 10px;
+}
+
+.service-articles {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.service-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-article img {
+    margin: 16px auto 0px auto;
+}
+
+.service-article-title {
+    font-family: "ProximaNova-Regular";
+    font-size: 18px;
+    margin: 15px auto 8px auto;
+}
+
+.service-article-description {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.advantages-articles {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(121, 189, 143, 0.3);
+    padding-bottom: 20px;
+}
+
+.advantages-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages-article img {
+    margin: 20px auto 0px auto;
+}
+
+.advantages-article-title {
+    font-family: "ProximaNova-Regular";
+    font-size: 18px;
+    margin: 15px auto 8px auto;
+}
+
+.advantages-article-description {
+    font-size: 12px;
+    text-align: center;
 }
