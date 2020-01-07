@@ -1,13 +1,13 @@
 @font-face {
     font-family: "ProximaNova-Regular";
-    src: url(fonts/ProximaNova-Regular.woff);
+    src: url(fonts/woff/ProximaNova-Regular.woff);
     font-weight: 400px;
     font-style: normal;
 }
   
   @font-face {
     font-family: "ProximaNova-Bold";
-    src: url(fonts/ProximaNova-Bold.woff);
+    src: url(fonts/woff/ProximaNova-Bold.woff);
     font-weight: 700px;
     font-style: normal;
 }
