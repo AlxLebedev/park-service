@@ -18,3 +18,9 @@ for (modalLink of modalLinks) {
         modal.classList.remove('modal-active');
     })
 };
+
+modal.addEventListener('click', function() {
+    if (modal.classList.contains('modal-active')) {
+        modal.classList.remove('modal-active')
+    }
+});
