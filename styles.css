@@ -65,7 +65,7 @@ body {
     align-items: center;
     padding-top: 9px;
     padding-bottom: 9px;
-    background-color:#71c78b;
+    background-color:#7dbd8d;
 }
 
 .header-logo-title {
@@ -115,13 +115,15 @@ body {
 }
 
 .header-content {
+    display: flex;
+    flex-direction: column;
     position: relative;
     z-index: 1;
 }
 
 .header-slogan {
-    padding-top: 12px;
-    padding-bottom: 11px;
+    margin-top: 12px;
+    margin-bottom: 11px;
 }
 
 .header-slogan h2 {
@@ -130,44 +132,77 @@ body {
 }
 
 .header-slogan-part-two {
-    display: none;
+    margin-top: 10px;
+    font-size: 12px;
 }
 
-.contact-button {
-    display: flex;
-    box-sizing: border-box;
-    border-radius: 15px;
-    width: 125px;
-    margin: auto;
-    border: 3px solid #7dbd8d;
-}
-
-.header-contact-button {
-    display: none;
-}
-
-.contact-button-text {
-    font-size: 16px;
-    margin: auto;
-}
-
-.links-bar {
+.contact-us-container {
+    position: relative;
     display: flex;
     flex-direction: column;
 }
 
+.contact-us-button {
+    display: flex;
+    width: 200px;
+    margin: 20px auto 30px auto;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.contact-us-button a {
+    margin: auto;
+}
+
+.modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-active {
+    display: flex;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
+    background-color: rgba(121, 189, 143, 0.9);
+    top: 60px;
+}
+
+.modal-close {
+    position: absolute;
+    font-size: 24px;
+    left: calc(100% - 24px);
+    cursor: pointer;
+}
+
 .links {
     display: flex;
-    padding-bottom: 20px;
+    width: 184px;
+}
+
+.links:first-child {
+    margin: 30px auto 20px auto;
 }
 
 .links:nth-child(2) {
-    margin-left: auto;
+    margin: 20px auto 40px auto;
 }
 
 .link-item:nth-child(2) {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 17%;
+    margin-right: 17%;
 }
 
 .links a {
@@ -346,6 +381,20 @@ body {
 .advantages-article-description {
     font-size: 12px;
     text-align: center;
+}
+
+.contact-button {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 125px;
+    margin: auto;
+    border: 1px solid #7dbd8d;
+}
+
+.contact-button-text {
+    font-size: 16px;
+    margin: auto;
 }
 
 .footer-content {
