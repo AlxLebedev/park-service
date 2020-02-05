@@ -1,6 +1,7 @@
 const modalBtn = document.getElementById('contact-us-button');
 const modalCloseBtn = document.getElementById('modal-close');
 const modal = document.getElementById('modal');
+const modalContent = document.querySelector('.modal-content');
 const modalLinks = Array.from(document.querySelectorAll('.modal-link'));
 
 modalBtn.addEventListener('click', function(event) {
@@ -19,8 +20,8 @@ for (modalLink of modalLinks) {
     })
 };
 
-modal.addEventListener('click', function() {
-    if (modal.classList.contains('modal-active')) {
-        modal.classList.remove('modal-active')
+modal.addEventListener('click', function(event) {
+    if (event.target != modalContent) {
+        modal.classList.remove('modal-active');
     }
 });
