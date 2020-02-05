@@ -174,7 +174,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 280px;
     margin: auto;
     background-color: rgba(121, 189, 143, 0.9);
     border: 2px solid darkseagreen;
@@ -184,22 +184,22 @@ body {
 
 .modal-close {
     position: absolute;
-    font-size: 24px;
-    left: calc(100% - 24px);
+    font-size: 28px;
+    left: calc(100% - 28px);
     cursor: pointer;
 }
 
 .links {
     display: flex;
-    width: 184px;
+    width: 225px;
 }
 
 .links:first-child {
-    margin: 30px auto 20px auto;
+    margin: 40px auto 20px auto;
 }
 
 .links:nth-child(2) {
-    margin: 20px auto 40px auto;
+    margin: 20px auto 55px auto;
 }
 
 .link-item:nth-child(2) {
@@ -210,92 +210,91 @@ body {
 .links a {
     display: flex;
     box-sizing: border-box;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 .link-call {
     position: relative;
     background-image: url(img/social/phone-icon-80.png);
-    background-size: 40px;
+    background-size: 50px;
 }
 
 .link-call::after {
     position: absolute;
     content: 'Позвонить';
-    font-size: 9px;
-    top: 40px;
-    left: -1px;
-}
-
-.link-whatsapp {
-    position: relative;
-    background-image: url(img/social/whatsapp-icon-80.png);
-    background-size: 40px;
-}
-
-.link-whatsapp::after {
-    position: absolute;
-    content: 'Whatsapp';
-    font-size: 9px;
-    top: 40px;
-    left: 2px;
+    font-size: 10.5px;
+    top: 55px;
 }
 
 .link-viber {
     position: relative;
     background-image: url(img/social/viber-icon-80.png);
-    background-size: 40px;
+    background-size: 50px;
 }
 
 .link-viber::after {
     position: absolute;
     content: 'Viber';
-    font-size: 9px;
-    top: 40px;
-    left: 10px;
+    font-size: 10.5px;
+    top: 55px;
+    left: 12px;
 }
 
-.link-insta {
+.link-whatsapp {
     position: relative;
-    background-image: url(img/social/insta-icon-80.png);
-    background-size: 40px;
+    background-image: url(img/social/whatsapp-icon-80.png);
+    background-size: 50px;
 }
 
-.link-insta::after {
+.link-whatsapp::after {
     position: absolute;
-    content: 'Instagram';
-    font-size: 9px;
-    top: 40px;
+    content: 'Whatsapp';
+    font-size: 10.5px;
+    top: 55px;
     left: 2px;
 }
 
 .link-vk {
     position: relative;
     background-image: url(img/social/vk-icon-80.png);
-    background-size: 40px;
+    background-size: 50px;
 }
 
 .link-vk::after {
     position: absolute;
     content: 'ВКонтакте';
-    font-size: 9px;
-    top: 40px;
-    left: -1px;
+    font-size: 10.5px;
+    top: 55px;
+    left: 1px;
+}
+
+.link-insta {
+    position: relative;
+    background-image: url(img/social/insta-icon-80.png);
+    background-size: 50px;
+}
+
+.link-insta::after {
+    position: absolute;
+    content: 'Instagram';
+    font-size: 10.5px;
+    top: 55px;
+    left: 3px;
 }
 
 .link-email {
     position: relative;
     background-image: url(img/social/email-icon-80.png);
-    background-size: 40px;
+    background-size: 50px;
 }
 
 .link-email::after {
     position: absolute;
     content: 'e-mail';
-    font-size: 9px;
-    top: 40px;
-    left: 8px;
+    font-size: 10.5px;
+    top: 55px;
+    left: 11px;
 }
 
 .service-links {
