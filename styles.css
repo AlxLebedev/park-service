@@ -177,7 +177,9 @@ body {
     width: 250px;
     margin: auto;
     background-color: rgba(121, 189, 143, 0.9);
-    top: 60px;
+    border: 2px solid darkseagreen;
+    border-radius: 20px;
+    /* top: 60px; */
 }
 
 .modal-close {
