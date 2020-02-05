@@ -111,7 +111,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.8;
+    opacity: 0.85;
 }
 
 .header-content {
@@ -176,10 +176,9 @@ body {
     flex-direction: column;
     width: 280px;
     margin: auto;
-    background-color: rgba(121, 189, 143, 0.9);
-    border: 2px solid darkseagreen;
+    background-color: rgba(143, 188, 143, 0.9);
+    border: 2px solid rgb(121, 189, 143);
     border-radius: 20px;
-    /* top: 60px; */
 }
 
 .modal-close {
