@@ -445,3 +445,66 @@ body {
     line-height: 24px;
     text-align: center;
 }
+
+@media (min-width: 641px) and (max-width: 960px) {
+    .header-address {
+        display: block;
+    }
+
+    .header-slogan h2 {
+        max-width: 650px;
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 107px auto 0 auto;
+    }
+
+    .header-slogan h2 .next-line {
+        display: inline;
+    }
+
+    .header-slogan-part-two {
+        font-size: 20px;
+        text-align: center;
+        max-width: 380px;
+        margin: 19px auto 56px auto;
+    }
+
+    .contact-us-button {
+        border: 3px solid #000000;
+    }
+
+    .service-links {
+        display: none;
+    }
+
+    .service-article {
+        margin-top: 50px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .article-title-container {
+        width: 23%;
+        margin-right: 60px;
+    }
+
+    .service-article picture img {
+        width: 100px;
+    }
+
+    .service-article-title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .service-article-description {
+        font-size: 18px;
+        margin: 0;
+        width: 68%;
+    }
+
+    .service-article-button {
+        display: none;
+    }
+}
