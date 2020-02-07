@@ -321,7 +321,7 @@ body {
     flex-direction: column;
 }
 
-.service-links-article img {
+.service-links-article picture {
     margin: auto;
 }
 
@@ -342,7 +342,12 @@ body {
     flex-direction: column;
 }
 
-.service-article img {
+.article-title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-article picture {
     margin: 16px auto 0px auto;
 }
 
@@ -369,7 +374,7 @@ body {
     flex-direction: column;
 }
 
-.advantages-article img {
+.advantages-article picture {
     margin: 20px auto 0px auto;
 }
 
