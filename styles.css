@@ -656,21 +656,212 @@ body {
 }
 
 @media (min-width: 1025px) {
+    .header-title {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .header-logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header-main-title {
+        font-size: 46px;
+        line-height: 48px;
+        text-align: center;
+    }
+
+    .operating-info-item {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .header-address {
+        display: block;
+    }
+
+    .header-address:nth-child(2) {
+        margin-top: 20px;
+        margin-bottom: 45px;
+    }
+
     .nav-list {
         display: flex;
         justify-content: space-between;
         margin: 20px auto 107px auto;
     }
-
+    
     .nav-list li {
         width: 200px;
+        text-align: center;
         border: 1px solid #000000;
         border-radius: 15px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
 
-    .nav-list a {
+    .header-slogan {
+        margin: 107px auto 0 auto;
+    }
+
+    .header-slogan h2 {
+        max-width: 700px;
+        font-size: 40px;
+        line-height: 46px;
         text-align: center;
+        text-transform: uppercase;
+    }
+
+    .header-slogan h2 .next-line {
+        display: inline;
+    }
+
+    .header-slogan-part-two {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        max-width: 380px;
+        margin: 19px auto 0 auto;
+    }
+
+    .contact-us-button {
+        width: 307px;
+        border-radius: 50px;
+        border: 3px solid #000000;
+        margin: 41px auto 140px auto;
+    }
+
+    .contact-us-button a {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 700;
+        margin: 12px auto 12px auto;
+    }
+
+    .service-links {
+        display: none;
+    }
+
+    .service-articles {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .service-article {
+        margin-top: 50px;
+        width: 50%;
+        /* flex-direction: row; */
+        /* align-items: center; */
+    }
+
+    .article-title-container {
+        /* width: 23%; */
+        /* margin-right: 60px; */
+    }
+
+    .service-article picture img {
+        width: 150px;
+    }
+
+    .service-article-title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .service-article-description {
+        font-size: 18px;
+        margin: 0;
+        /* width: 68%; */
+    }
+
+    .service-article-button {
+        display: none;
+    }
+
+    .advantages-articles {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 43px;
+        padding-bottom: 71px;
+    }
+
+    .advantages-article {
+        width: 28%;
+    }
+
+    .advantages-pic-container {
+        width: 100px;
+        height: 130px;
+    }
+
+    .advantages-article picture img {
+        width: 100px;
+    }
+
+    .advantages-article-title {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        margin: 15px auto 16px auto
+    }
+
+    .advantages-article-title .next-line {
+        display: block;
+    }
+
+    .advantages-article-description {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-logo-title {
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+    }
+
+    .footer-logo-title a {
+        margin: 0;
+    }
+
+    .svg-logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .footer-title {
+        font-size: 36px;
+        line-height: 38px;
+        margin: 43px 0 43px 0;
+    }
+
+    .footer-contact-info {
+        margin: 0;
+    }
+
+    .footer-contact-info-item {
+        margin: 0;
+        text-align: right;
+    }
+
+    .footer-contact-info-item:nth-child(2) {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .footer-contact-info-item:nth-child(3) {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .footer-contact-info-item .next-line {
+        display: inline;
     }
 }
