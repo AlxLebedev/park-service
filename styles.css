@@ -387,6 +387,10 @@ body {
     margin: 15px auto 8px auto;
 }
 
+.advantages-article-title .next-line {
+    display: inline;
+}
+
 .advantages-article-description {
     font-size: 12px;
     text-align: center;
@@ -555,6 +559,38 @@ body {
 
     .advantages-articles {
         flex-direction: row;
+        justify-content: space-between;
+        padding-top: 43px;
+        padding-bottom: 71px;
+    }
+
+    .advantages-article {
+        width: 28%;
+    }
+
+    .advantages-pic-container {
+        width: 80px;
+        height: 100px;
+    }
+
+    .advantages-article picture img {
+        width: 80px;
+    }
+
+    .advantages-article-title {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        margin: 15px auto 16px auto
+    }
+
+    .advantages-article-title .next-line {
+        display: block;
+    }
+
+    .advantages-article-description {
+        font-size: 18px;
+        line-height: 20px;
     }
 }
 
