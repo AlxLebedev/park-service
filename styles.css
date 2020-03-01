@@ -53,10 +53,12 @@ p {
 
 body {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0 auto 0 auto;
     min-width: 320px;
+    max-width: 1920px;
     color: #000000;
     font-family: "ProximaNova-Regular";
+    background-color: #a2ddb5;
 }
 
 .header-title {
@@ -65,7 +67,7 @@ body {
     align-items: center;
     padding-top: 9px;
     padding-bottom: 9px;
-    background-color:#7dbd8d;
+    background-color:#79bd8f;
 }
 
 .header-logo-title {
@@ -343,6 +345,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
+    background-color: #ffffff;
 }
 
 .service-article {
@@ -373,7 +376,7 @@ body {
 .advantages-articles {
     display: flex;
     flex-direction: column;
-    background-color: rgba(121, 189, 143, 0.3);
+    background-color: #d6ebdd;
     padding-bottom: 20px;
 }
 
