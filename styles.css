@@ -749,16 +749,16 @@ body {
     }
 
     .service-article {
+        box-sizing: border-box;
         margin-top: 50px;
         width: 50%;
-        /* flex-direction: row; */
-        /* align-items: center; */
+        padding: 0 25px 0 25px;
     }
 
-    .article-title-container {
-        /* width: 23%; */
-        /* margin-right: 60px; */
-    }
+    /* .article-title-container {
+        width: 23%;
+        margin-right: 60px;
+    } */
 
     .service-article picture img {
         width: 150px;
