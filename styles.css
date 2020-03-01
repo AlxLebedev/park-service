@@ -309,7 +309,7 @@ body {
 .service-links {
     display: flex;
     flex-direction: column;
-    background-color: rgba(121, 189, 143, 0.3);
+    background-color: #d6ebdd;
     padding-top: 20px;
 }
 
