@@ -581,6 +581,16 @@ body {
     .contact-us-button {
         margin: 40px auto 70px auto;
     }
+
+    .service-article-description {
+        max-width: 500px;
+        margin: 0 auto 20px auto;
+    }
+
+    .advantages-article-description {
+        max-width: 500px;
+        margin: auto;
+    }
 }
 
 @media (min-width: 661px) and (max-width: 740px) {
@@ -607,32 +617,41 @@ body {
     .contact-us-button {
         margin: 50px auto 80px auto;
     }
+
+    .service-article-description {
+        max-width: 500px;
+        margin: 0 auto 20px auto;
+    }
+
+    .advantages-article-description {
+        max-width: 500px;
+        margin: auto;
+    }
 }
 
-@media (min-width: 741px) and (max-width: 1024px) {
+@media (min-width: 741px) and (max-width: 930px) {
     .header-title {
         padding-top: 40px;
         padding-bottom: 40px;
     }
 
     .header-logo {
-        width: 150px;
-        /* height: 80px; */
+        width: 120px;
     }
 
     .header-main-title {
         font-size: 36px;
-        line-height: 48px;
+        line-height: 36px;
         text-align: center;
     }
 
     .operating-info-item {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 16px;
+        line-height: 18px;
     }
 
     .operating-info-item:last-child {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .header-address {
@@ -640,8 +659,8 @@ body {
     }
 
     .header-address:nth-child(2) {
-        margin-top: 20px;
-        margin-bottom: 45px;
+        margin-top: 16px;
+        margin-bottom: 35px;
     }
 
     .header-content-cover {
@@ -654,7 +673,7 @@ body {
 
     .header-slogan h2 {
         max-width: 700px;
-        font-size: 40px;
+        font-size: 32px;
         line-height: 46px;
         text-align: center;
         text-transform: uppercase;
@@ -673,17 +692,17 @@ body {
     }
 
     .contact-us-button {
-        width: 307px;
+        width: 250px;
         border-radius: 50px;
         border: 3px solid #000000;
         margin: 41px auto 140px auto;
     }
 
     .contact-us-button a {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 30px;
         font-weight: 700;
-        margin: 12px auto 12px auto;
+        margin: 10px auto 10px auto;
     }
 
     .service-links {
@@ -711,7 +730,7 @@ body {
     }
 
     .service-article-description {
-        font-size: 18px;
+        font-size: 16px;
         margin: 0;
         width: 68%;
     }
@@ -752,7 +771,7 @@ body {
     }
 
     .advantages-article-description {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 20px;
     }
 
@@ -765,7 +784,7 @@ body {
     .footer-logo-title {
         flex-direction: row;
         align-items: center;
-        margin: 0;
+        margin: 43px 0 43px 0;
     }
 
     .footer-logo-title a {
@@ -773,14 +792,12 @@ body {
     }
 
     .footer-logo-title svg {
-        width: 150px;
-        height: 150px;
+        width: 120px;
     }
 
     .footer-title {
         font-size: 36px;
-        line-height: 38px;
-        margin: 43px 0 43px 0;
+        line-height: 36px;
     }
 
     .footer-contact-info {
@@ -807,7 +824,202 @@ body {
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 931px) and (max-width: 1200px) {
+    .header-title {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .header-logo {
+        width: 120px;
+    }
+
+    .header-main-title {
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .operating-info-item {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .operating-info-item:last-child {
+        font-size: 16px;
+    }
+
+    .header-address {
+        display: block;
+    }
+
+    .header-address:nth-child(2) {
+        margin-top: 16px;
+        margin-bottom: 35px;
+    }
+
+    .header-content-cover {
+        background-image: url(./img/background-img/car_1024.png);
+    }
+
+    .header-slogan {
+        margin: 150px auto 20px auto;
+    }
+
+    .header-slogan h2 {
+        max-width: 700px;
+        font-size: 32px;
+        line-height: 46px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .header-slogan h2 .next-line {
+        display: inline;
+    }
+
+    .header-slogan p {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        max-width: 380px;
+        margin: 29px auto 0 auto;
+    }
+
+    .contact-us-button {
+        width: 250px;
+        border-radius: 50px;
+        border: 3px solid #000000;
+        margin: 51px auto 150px auto;
+    }
+
+    .contact-us-button a {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        margin: 10px auto 10px auto;
+    }
+
+    .service-links {
+        display: none;
+    }
+
+    .service-article {
+        margin-top: 50px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .article-title-container {
+        width: 23%;
+        margin-right: 60px;
+    }
+
+    .service-article picture img {
+        width: 100px;
+    }
+
+    .service-article-title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .service-article-description {
+        font-size: 16px;
+        margin: 0;
+        width: 68%;
+    }
+
+    .service-article-button {
+        display: none;
+    }
+
+    .advantages-articles {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 43px;
+        padding-bottom: 71px;
+    }
+
+    .advantages-article {
+        width: 28%;
+    }
+
+    .advantages-pic-container {
+        width: 80px;
+        height: 100px;
+    }
+
+    .advantages-article picture img {
+        width: 80px;
+    }
+
+    .advantages-article-title {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        margin: 15px auto 16px auto
+    }
+
+    .advantages-article-title .next-line {
+        display: block;
+    }
+
+    .advantages-article-description {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-logo-title {
+        flex-direction: row;
+        align-items: center;
+        margin: 43px 0 43px 0;
+    }
+
+    .footer-logo-title a {
+        margin: 0;
+    }
+
+    .footer-logo-title svg {
+        width: 120px;
+    }
+
+    .footer-title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .footer-contact-info {
+        margin: 0;
+    }
+
+    .footer-contact-info-item {
+        margin: 0;
+        text-align: right;
+    }
+
+    .footer-contact-info-item:nth-child(2) {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .footer-contact-info-item:nth-child(3) {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .footer-contact-info-item .next-line {
+        display: inline;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1280px) {
     .header-title {
         padding-top: 40px;
         padding-bottom: 40px;
