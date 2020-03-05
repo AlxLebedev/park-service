@@ -479,7 +479,7 @@ body {
     font-size: 9px;
 }
 
-@media (min-width: 360px) and (max-width: 375px) {
+@media (min-width: 360px) and (max-width: 400px) {
     .operating-info-item:last-child {
         font-size: 10px;
     }
@@ -489,7 +489,7 @@ body {
     }
 }
 
-@media (min-width: 376px) and (max-width: 470px) {
+@media (min-width: 401px) and (max-width: 470px) {
     .operating-info-item:last-child {
         font-size: 12px;
     }
@@ -508,12 +508,16 @@ body {
         font-size: 12px;
     }
 
+    .header-slogan {
+        margin-top: 20px;
+    }
+
     .header-content-cover {
         background-image: url(./img/background-img/car_768.png);
     }
 
     .contact-us-button {
-        margin: 40px auto 70px auto;
+        margin: 20px auto 70px auto;
     }
 }
 
