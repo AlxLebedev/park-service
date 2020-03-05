@@ -27,8 +27,8 @@
 }
 
 h1, h2 {
-    margin: 0;
     font-family: "ProximaNova-Bold";
+    margin: 0;
 }
 
 h3 {
@@ -103,9 +103,13 @@ body {
     display: none;
 }
 
+.operating-info-item:last-child {
+    font-size: 8px;
+}
+
 .header-content-cover {
     position: relative;
-    background-image: url(img/car.png);
+    background-image: url(./img/background-img/car_640.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -141,7 +145,7 @@ body {
     font-size: 16px;
 }
 
-.header-slogan-part-two {
+.header-slogan p {
     margin-top: 10px;
     font-size: 12px;
 }
@@ -189,13 +193,6 @@ body {
     background-color: rgba(143, 188, 143, 0.9);
     border: 2px solid rgb(121, 189, 143);
     border-radius: 20px;
-}
-
-.modal-close {
-    position: absolute;
-    font-size: 28px;
-    left: calc(100% - 28px);
-    cursor: pointer;
 }
 
 .links {
@@ -306,6 +303,13 @@ body {
     left: 11px;
 }
 
+.modal-close {
+    position: absolute;
+    font-size: 28px;
+    left: calc(100% - 28px);
+    cursor: pointer;
+}
+
 .service-links {
     display: flex;
     flex-direction: column;
@@ -326,7 +330,7 @@ body {
     margin: auto;
 }
 
-.service-link {
+.service-links-article a {
     display: flex;
     flex-direction: column;
 }
@@ -373,6 +377,20 @@ body {
     margin-bottom: 20px;
 }
 
+.contact-button {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 125px;
+    margin: auto;
+    border: 1px solid #7dbd8d;
+}
+
+.contact-button-text {
+    font-size: 16px;
+    margin: auto;
+}
+
 .advantages-articles {
     display: flex;
     flex-direction: column;
@@ -403,20 +421,6 @@ body {
     text-align: center;
 }
 
-.contact-button {
-    display: flex;
-    box-sizing: border-box;
-    border-radius: 15px;
-    width: 125px;
-    margin: auto;
-    border: 1px solid #7dbd8d;
-}
-
-.contact-button-text {
-    font-size: 16px;
-    margin: auto;
-}
-
 .footer-content {
     display: flex;
     flex-direction: column;
@@ -435,7 +439,7 @@ body {
     margin: auto;
 }
 
-.svg-logo {
+.footer-logo-title svg {
     width: 100px;
     height: 100px;
 }
@@ -461,15 +465,15 @@ body {
     text-align: center;
 }
 
+.desktop-social-links {
+    display: none;
+}
+
 .dev-info {
     display: flex;
     justify-content: space-evenly;
     background-color: #79bd8f;
     padding-bottom: 5px;
-}
-
-.desktop-social-links {
-    display: none;
 }
 
 .dev-info a {
@@ -581,7 +585,7 @@ body {
         display: inline;
     }
 
-    .header-slogan-part-two {
+    .header-slogan p {
         font-size: 20px;
         line-height: 20px;
         text-align: center;
@@ -689,7 +693,7 @@ body {
         margin: 0;
     }
 
-    .svg-logo {
+    .footer-logo-title svg {
         width: 150px;
         height: 150px;
     }
@@ -790,7 +794,7 @@ body {
         display: inline;
     }
 
-    .header-slogan-part-two {
+    .header-slogan p {
         font-size: 20px;
         line-height: 20px;
         text-align: center;
@@ -909,7 +913,7 @@ body {
         margin: 0;
     }
 
-    .svg-logo {
+    .footer-logo-title svg {
         width: 150px;
         height: 150px;
     }
@@ -1052,7 +1056,7 @@ body {
         display: inline;
     }
 
-    .header-slogan-part-two {
+    .header-slogan p {
         font-size: 20px;
         line-height: 20px;
         text-align: center;
@@ -1167,7 +1171,7 @@ body {
         margin: 0;
     }
 
-    .svg-logo {
+    .footer-logo-title svg {
         width: 150px;
         height: 150px;
     }
