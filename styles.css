@@ -1232,7 +1232,7 @@ body {
     .desktop-socials-list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 250px;
         padding: 20px 0;
         margin-left: auto;
@@ -1240,29 +1240,24 @@ body {
     }
 
     .desktop-social-link-item {
-        border: 1px solid #ffffff;
         padding: 5px;
     }
       
     .desktop-social-link-item a {
         display: flex;
-        width: 20px;
-        height: 20px;
-        background-size: 20px;
+        width: 30px;
+        height: 30px;
+        background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
     }
 
-    .desktop-social-link-facebook {
-        background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
+    .desktop-social-link-vk {
+        background-image: url("./img/social/desktop-vk-social.svg");
     }
       
-    .desktop-social-link-tweater {
-        background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
-    }
-      
-    .desktop-social-link-instagramm {
-        background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
+    .desktop-social-link-insta {
+        background-image: url("./img/social/desktop-insta-social.svg");
     }
 }
 
@@ -1418,6 +1413,10 @@ body {
         line-height: 20px;
     }
 
+    footer {
+        background-color: #79bd8f;
+    }
+
     .footer-content {
         flex-direction: row;
         justify-content: space-between;
@@ -1469,7 +1468,38 @@ body {
     }
 
     .desktop-social-links {
-        
         display: inline;
+        background-color: #79bd8f;
+    }
+
+    .desktop-socials-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 250px;
+        padding: 20px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .desktop-social-link-item {
+        padding: 5px;
+    }
+      
+    .desktop-social-link-item a {
+        display: flex;
+        width: 20px;
+        height: 20px;
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .desktop-social-link-vk {
+        background-image: url("./img/social/desktop-vk-social.svg");
+    }
+      
+    .desktop-social-link-insta {
+        background-image: url("./img/social/desktop-insta-social.svg");
     }
 }
